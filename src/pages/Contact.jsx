@@ -1,6 +1,6 @@
 import '../styles/contact.css'
 
-const __LinkURL = 'https://www.linkedin.com/in/leonel-fernando-don-6b925b292/';
+const __LinkURL = 'https://www.linkedin.com/in/leoneldon/';
 const __GithubURL = 'https://github.com/DonLeonel';
 
 export const Contact = () => {
