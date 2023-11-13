@@ -1,4 +1,5 @@
 import '../styles/footer.css'
+import cv from '../pdfs/Cv-Leonel-Don.pdf'
 
 
 export const FooterComp = () => {
@@ -6,7 +7,7 @@ export const FooterComp = () => {
     <footer>
       <div className='opciones-footer'>
         <a href='#' className='button-cv' aria-label='volver hacia arriba'>Ir arriba</a>
-        <a download='curriculumLeonel.pdf' aria-label='descargar currículum' href='/curriculum.pdf' className='button-cv'>Descargar <br /> Curriculum</a>
+        <a download='Cv-Leonel-don.pdf' aria-label='descargar currículum' href={cv} className='button-cv'>Descargar <br /> Curriculum</a>
       </div>
       <div className='copirigth'>
         <span><i className="fa-regular fa-copyright"></i><br />Copyright</span>
