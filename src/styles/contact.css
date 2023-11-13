@@ -1,0 +1,22 @@
+.container-fab {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.container-fab a i{
+    font-size: 50px;
+}
+
+.container-fab a:hover {
+   scale: 1.2; 
+}
+
+.fa-linkedin{
+    color: blue;
+}
+
+.fa-github{
+    color: black
+}
