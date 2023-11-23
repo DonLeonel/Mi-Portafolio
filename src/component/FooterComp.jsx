@@ -1,5 +1,5 @@
 import '../styles/footer.css'
-import cv from '../pdfs/Cv-Leonel-Don.pdf'
+import cv from '../pdfs/Cv-LeonelDon.pdf'
 
 
 export const FooterComp = () => {
